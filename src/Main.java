@@ -6,7 +6,7 @@ public class Main {
         UserService userService = new UserService();
         User user = userService.createUser("Alice", 25);
 
-        Greeter greeter = new Greeter();
+        Greeter greeter = new Greeter();          //greet(string)
 
         greeter.greet(user.getName());           // greet(String)
         greeter.greet(user);                     // greet(User)
